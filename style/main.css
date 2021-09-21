@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+#home {
+    background-image: url('../img/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+}
